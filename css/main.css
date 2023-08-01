@@ -1,0 +1,23 @@
+@import url(./sidebar.css);
+@import url(./styles.css);
+:root{
+    --color-primary: #735c9a;
+    --color-primary-2: #4e4c64;
+    --color-border: #eff0ff;
+    --color-secondary: #5a61e9;
+    --size-primary:15px;
+
+}
+
+.text-small-primary-1{
+    font-size: 13px;
+    color: var(--color-primary);
+}
+.text-small-primary-2{
+    font-size: 13px;
+    color: var(--color-primary-2);
+}
+.text-md-secondary{
+    color: var(--color-secondary);
+    font-size: 20px;
+}
