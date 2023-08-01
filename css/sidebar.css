@@ -55,7 +55,12 @@
     list-style: none;
     padding: 15px;
     gap: 10px;
+    cursor: pointer;
 }
+.side-text:hover + .side-text > i {
+    color: var(--color-secondary);
+}
+
 
 .sidebar-details {
     padding-right: 25px;
